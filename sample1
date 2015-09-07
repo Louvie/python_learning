@@ -1,0 +1,15 @@
+#My first taste of Python.
+#Learning how to print with strings
+
+name = input("Please give me your name:")
+age = input("Give me your age:")
+timeLeft = 2015 + (100 - int(age))
+
+#print("Your name is " + name + " and you are " + age + " years old!")
+#print("You will turn 100 in " + str(timeLeft) + " !")
+
+message = "Your name is " + name + " and will be 100 in " + str(timeLeft) + "!\n"
+
+times = input("Give me a nice number:")
+
+print(message * int(times))
